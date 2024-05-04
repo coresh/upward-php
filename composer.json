@@ -5,18 +5,18 @@
     "license": "OSL-3.0",
     "require": {
         "php": "~8.1.0||~8.2.0||~8.3.0",
-        "mustache/mustache": "^2.12",
-        "xantios/mimey": "^2.2",
-        "symfony/yaml": "^2.3 || ^3.3 || ^4.0 || ^5.0",
-        "laminas/laminas-http": "^2.6.0",
-        "laminas/laminas-stdlib": "^3.2.1"
+        "mustache/mustache": "*",
+        "xantios/mimey": "*",
+        "symfony/yaml": "*",
+        "laminas/laminas-http": "*",
+        "laminas/laminas-stdlib": "*"
     },
     "require-dev": {
-        "bebat/verify": "^2.0",
-        "friendsofphp/php-cs-fixer": "~3.0.0",
-        "mockery/mockery": "^1.2",
-        "phpunit/phpunit": "~9.5.0",
-        "phpmd/phpmd": "^2.9.1"
+        "bebat/verify": "*",
+        "friendsofphp/php-cs-fixer": "*",
+        "mockery/mockery": "*",
+        "phpunit/phpunit": "*",
+        "phpmd/phpmd": "*"
     },
     "authors": [
         {
@@ -40,7 +40,7 @@
     "config": {
       "sort-packages": true
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "scripts": {
         "cs-check": "php-cs-fixer fix -v --allow-risky=yes --ansi --dry-run --diff",
         "cs-check-file": "php-cs-fixer fix -v --allow-risky=yes --ansi --dry-run --diff --path-mode=intersection",
