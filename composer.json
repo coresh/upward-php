@@ -5,11 +5,11 @@
     "license": "OSL-3.0",
     "require": {
         "php": "~8.2.0||~8.3.0||~8.4.0",
-        "mustache/mustache": "^2.12",
-        "xantios/mimey": "^2.2",
-        "symfony/yaml": "^2.3 || ^3.3 || ^4.0 || ^5.0",
-        "laminas/laminas-http": "^2.6.0",
-        "laminas/laminas-stdlib": "^3.2.1"
+        "mustache/mustache": "*",
+        "xantios/mimey": "*",
+        "symfony/yaml": "*",
+        "laminas/laminas-http": "*",
+        "laminas/laminas-stdlib": "*"
     },
     "require-dev": {
         "bebat/verify": "^2.0",
